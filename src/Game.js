@@ -3,7 +3,12 @@ import React from 'react';
 const Game = () => {
 	return (
 		<div>
-			<p>Game</p>
+			<div className="score-text">
+				<p>Score: 12</p>
+				<p>|</p>
+				<p>Best: 23</p>
+			</div>
+			<div className="game-board" />
 		</div>
 	);
 };

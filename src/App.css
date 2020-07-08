@@ -4,3 +4,15 @@
 	color: #353535;
 	font-size: 50px;
 }
+
+.score-text {
+	display: flex;
+	justify-content: center;
+	margin-top: -40px;
+}
+
+.score-text p {
+	margin-left: 10px;
+	font-size: 20px;
+	margin-right: 10px;
+}
